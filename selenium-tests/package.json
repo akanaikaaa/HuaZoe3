@@ -1,0 +1,13 @@
+{
+  "name": "huazoe-selenium-tests",
+  "version": "1.0.0",
+  "description": "Selenium WebDriver E2E test suite for HuaZoe HealthTrack Web Frontend",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/login-tests.js"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.25.0",
+    "chromedriver": "^129.0.0"
+  }
+}

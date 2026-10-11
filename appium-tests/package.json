@@ -1,0 +1,12 @@
+{
+  "name": "huazoe-appium-tests",
+  "version": "1.0.0",
+  "description": "Appium Mobile E2E test suite for HuaZoe HealthTrack Android app",
+  "type": "module",
+  "scripts": {
+    "test": "node tests/login-tests.js"
+  },
+  "dependencies": {
+    "webdriverio": "^8.39.0"
+  }
+}
